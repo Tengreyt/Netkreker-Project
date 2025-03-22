@@ -6,6 +6,7 @@
                 <img src="@/assets/icons/Vector.png" alt="back">
                 <button @click="goBack" class="back-button">Назад к списку</button>
             </div>
+            <hr>
           <!-- Прелоадер -->
           <div v-if="loading" class="loading">
             <img src="../assets/Loader.svg" alt="loading">
@@ -230,8 +231,7 @@ const goBack = () => {
 
 /* Стили для страницы деталей */
 .movie-details-page {
-  padding: 20px;
-  margin: 0 auto;
+  margin: 40px auto 0px auto;
 }
 
 .back {
