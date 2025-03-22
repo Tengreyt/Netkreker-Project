@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #333333;
+}
+
+.container {
+  /* max-width: 1920px;  у меня экран маленького размера*/ 
+  max-width: 1640px; 
+  margin: 0 auto; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  background-color: transparent;
+}
+
+p {
+  background-color: transparent;
+}
+ul {
+  background-color: transparent;
+}
+li {
+  background-color: transparent;
+}
+
+strong {
+  background-color: transparent;
+}
+
+span {
+  background-color: transparent;
+}
+
+img {
+  background-color: transparent;
+}
